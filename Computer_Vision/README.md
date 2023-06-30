@@ -273,7 +273,7 @@ _Output_ (order - model0 -> model1 -> model2) <br>
 ## 4. Visualising a few masks - 
 <details><summary>Example 1</summary>
 
-_Input (Prompt = "chocolate")_ <br>
+_Input (Prompt = "rug")_ <br>
 
 ![xyz](Comparing-Masks/input-train-4620-rug.jpg)<br>
 _Output (BCE -> DICE -> Focal)_ <br>
@@ -284,7 +284,7 @@ _Output (BCE -> DICE -> Focal)_ <br>
 </details>
 <details><summary>Example 2</summary>
 
-_Input (Prompt = "rug")_ <br>
+_Input (Prompt = "chocolate")_ <br>
 
 ![xyz](Comparing-Masks/input-train-4823-chocolate.jpg)<br>
 _Output (BCE -> DICE -> Focal)_ <br>
