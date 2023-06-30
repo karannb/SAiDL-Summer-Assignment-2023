@@ -1,0 +1,5 @@
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+Core_ML/data/cifar-100-python/train filter=lfs diff=lfs merge=lfs -text
+Core_ML/data/cifar-100-python/train.txt filter=lfs diff=lfs merge=lfs -text
+Core_ML/docs/datasets/cifar-100-python/train filter=lfs diff=lfs merge=lfs -text
