@@ -13,9 +13,9 @@ The first task I did was to find a way to navigate the dataset and generate inpu
 ### Eg - 
 #### Prompt is "Red Cushions"
 #### input
-![](PhraseCutDataset/data/VGPhraseCut_v0/images_train/4346.jpg)
+![](display/4346.jpg)
 #### output
-![](PhraseCutDataset/data/VGPhraseCut_v0/output_train/4346__1558040.jpg)
+![](display/4346__1558040.jpg)
 
 ## 2. Models - 
 Now I decided a basic model architecture (model0) that I tried out with all 3 loss functions and then picked the loss function from the [CLIPSeg paper](https://arxiv.org/pdf/2112.10003.pdf) (BCELoss) to try out with other models (model1, model2). Description of the models -
@@ -33,7 +33,7 @@ layers extracted from CLIP = total 5, (2nd, 4th, 6th, 8th, 10th) <br> <details>
 <summary>Over the iterations</summary>
 
 **Input<sup>[4](#notes)</sup>** (Prompt - "Giraffe")<br>
-![](PhraseCutDataset/data/VGPhraseCut_v0/images_train/2315419.jpg)<br>
+![](display/2315419.jpg)<br>
 **Epoch 1** <br>
 ![](iterations_f/Focal1.jpg)<br>
 **Epoch 2** <br>
@@ -70,7 +70,7 @@ layers extracted from CLIP = total 3, (3rd, 6th, 9th) <br><details>
 <summary>Over the iterations</summary>
 
 **Input** (Prompt - "Goat")<br>
-![](PhraseCutDataset/data/VGPhraseCut_v0/images_train/2317187.jpg)<br>
+![](display/2317187.jpg)<br>
 **Epoch 1** <br>
 ![](iterations_cs/ClipSege1.jpg)<br>
 **Epoch 2** <br>
@@ -107,7 +107,7 @@ layers extracted from CLIP = total 4, (8th, 9th, 10th, 11th) <br><details>
 <summary>Over the iterations</summary>
 
 **Input** (Prompt - "Goat")<br>
-![](PhraseCutDataset/data/VGPhraseCut_v0/images_train/2317187.jpg)<br>
+![](display/2317187.jpg)<br>
 **Epoch 1** <br>
 ![](iterations_2/model2e1.jpg)<br>
 **Epoch 2** <br>
